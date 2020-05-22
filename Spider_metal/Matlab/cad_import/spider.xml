@@ -1,0 +1,1900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/24/19||14:13:35" using="Simscape Multibody Link Version 6.1" from="SolidWorks 27.4.0"/>
+<ModelUnits mass="kilogram" length="centimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="spider" uid="spider" version="254">
+<AssemblyFile name="spider.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="horn-1" uid="horn-1" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-0.47058823529411664 0.88235294117647101 0 0 0 -0.99999999999999989 -0.88235294117647101 -0.47058823529411664 0</Rotation>
+<Translation>0.040000000000000029 0 0.075000000000000011</Translation>
+</Transform>
+</Instance>
+<Instance name="body-2" uid="body-2" entityUid="body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.054300000000000001 0</Translation>
+</Transform>
+</Instance>
+<Instance name="body-1" uid="body-1" grounded="true" entityUid="body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-3" uid="horn-3" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 1.1672847043054106e-16 0 0 0 -0.99999999999999978 -1.1672847043054106e-16 -0.99999999999999989 0</Rotation>
+<Translation>-0.067838821814150088 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="left_leg-3" uid="left_leg-3" entityUid="left_leg">
+<Transform>
+<Rotation>0.47058823529411764 0.88235294117647056 0 0 0 1 0.88235294117647056 -0.47058823529411764 0</Rotation>
+<Translation>-0.040000000000000015 -0.0020000000000000013 -0.075000000000000025</Translation>
+</Transform>
+<Instance name="tibia-1" uid="tibia-1" entityUid="tibia*:*Default">
+<Transform>
+<Rotation>-8.2549736086996191e-16 -0.99999999999999989 2.7755575615629175e-16 3.1582253569179162e-15 2.7755575615628914e-16 0.99999999999999989 -1 8.2549736086996269e-16 3.1582253569179154e-15</Rotation>
+<Translation>-0.11474000000000001 0.0042500000000000454 -0.023171667986661346</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-1" uid="bearing-1" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>-1.1102230246251565e-16 -0.99999999999999989 -2.099749184642104e-16 -0.99999999999999989 -2.7755575615628914e-16 0 0 2.0997491846421043e-16 -1</Rotation>
+<Translation>0 0 -0.048421667986661435</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-1" uid="coxa-1" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>0 0.99999999999999978 1.0781747709441892e-16 -1 0 0 0 -1.0781747709441893e-16 0.99999999999999978</Rotation>
+<Translation>-0.014870000000000008 -0.010000000000000002 -0.048421667986661435</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-1" uid="servo-1" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 1 0</Rotation>
+<Translation>0.0099060000000004145 -0.010287000000000008 -0.021390667986661428</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-2" uid="horn-2" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 -3.2986208201944883e-16 -3.8857805861880479e-16 3.8857805861880479e-16 2.5863980878175034e-15 -0.99999999999999956 3.2986208201945258e-16 -1 -2.586398087817505e-15</Rotation>
+<Translation>-0.029740000000000003 0.024671667986661434 -0.023171667986661339</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-3" uid="servo-3" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 2.7755575615628914e-16 -8.2549736086996407e-16 2.7755575615628914e-16 0.99999999999999989 3.1582253569179178e-15 8.2549736086996427e-16 3.158225356917917e-15 -1</Rotation>
+<Translation>-0.10483399999999959 0.0012810000000000044 -0.012884667986661352</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-2" uid="servo-2" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 -2.1883977955693574e-16 0 1 3.4169096123954588e-15 3.2986208201945095e-16 3.4169096123954584e-15 -1</Rotation>
+<Translation>-0.019833999999999588 0.0012809999999999627 -0.012884667986661396</Translation>
+</Transform>
+</Instance>
+<Instance name="femur-1" uid="femur-1" entityUid="femur*:*Default">
+<Transform>
+<Rotation>-1 6.3021706100286363e-16 3.8857805861880479e-16 3.8857805861880479e-16 -2.6141536634331418e-15 0.99999999999999956 6.3021706100286206e-16 1 2.6141536634331351e-15</Rotation>
+<Translation>-0.072239999999999999 0.024671667986661448 -0.023171667986661294</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-1" uid="horn-1" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 -8.2549736086996536e-16 -3.3306690738754948e-16 3.3306690738754686e-16 3.1582253569179182e-15 -1 8.2549736086996644e-16 -1 -3.1582253569179178e-15</Rotation>
+<Translation>-0.11473999999999995 0.024671667986661441 -0.02317166798666127</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-2" uid="coxa-2" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>-2.5037328916017805e-16 -1 0 3.6944653685517479e-15 0 1 -1 2.503732891601782e-16 3.4169096123954584e-15</Rotation>
+<Translation>-0.014870000000000022 -0.02575000000000003 -0.013171667986661499</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="horn-5" uid="horn-5" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-0.4705882352941177 0.88235294117647067 0 0 0 -0.99999999999999989 -0.88235294117647067 -0.4705882352941177 0</Rotation>
+<Translation>-0.040000000000000042 0 -0.075000000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-2" uid="horn-2" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-0.47058823529411831 -0.88235294117647023 0 0 0 -1 0.88235294117647023 -0.47058823529411831 0</Rotation>
+<Translation>-0.040000000000000008 0 0.075000000000000025</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-4" uid="horn-4" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 1.1071002199471774e-15 0 0 0 -1.0000000000000002 -1.1071002199471772e-15 -1.0000000000000002 0</Rotation>
+<Translation>0.06783882181415013 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-6" uid="horn-6" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-0.47058823529412058 -0.88235294117646901 0 0 0 -0.99999999999999989 0.88235294117646901 -0.47058823529412058 0</Rotation>
+<Translation>0.040000000000000001 0 -0.075000000000000039</Translation>
+</Transform>
+</Instance>
+<Instance name="right_leg-3" uid="right_leg-3" entityUid="right_leg">
+<Transform>
+<Rotation>0.47058823529411675 0.88235294117647134 0 0 0 1 0.88235294117647134 -0.47058823529411675 0</Rotation>
+<Translation>0.040000000000000036 -0.0020000000000000026 0.075000000000000025</Translation>
+</Transform>
+<Instance name="tibia-1" uid="tibia-1" entityUid="tibia*:*Default">
+<Transform>
+<Rotation>1.1853603350782244e-15 1.0000000000000004 2.2204460492503131e-16 3.3772675388395562e-15 1.6653345369377348e-16 -1 -1 1.185360335078224e-15 -3.3772675388395519e-15</Rotation>
+<Translation>0.11474000000000002 0.0072500000000000273 -0.023171667986661426</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-1" uid="bearing-1" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>0.00019041730547542096 0.99999998187062467 -2.3492285925315679e-16 0.99999998187062467 -0.00019041730547542099 0 0 -2.3492011785090496e-16 -0.99999999999999989</Rotation>
+<Translation>0 0 -0.048421667986661421</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-1" uid="coxa-1" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>0 -1.0000000000000002 0 1.0000000000000002 0 0 0 0 1</Rotation>
+<Translation>0.014870000000000008 -0.010000000000000009 -0.048421667986661428</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-2" uid="coxa-2" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>2.7438094090229433e-16 1.0000000000000002 0 -3.4151813698605666e-15 0 1.0000000000000002 1 -2.7438094090229414e-16 3.4151813698605658e-15</Rotation>
+<Translation>0.014870000000000022 -0.025750000000000051 -0.013171667986661518</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-1" uid="servo-1" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 1 0</Rotation>
+<Translation>0.0099060000000004284 -0.010287000000000018 -0.021390667986661425</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-2" uid="servo-2" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 -3.8431659304136026e-16 0 1.0000000000000002 3.692737126016855e-15 3.8431659304135976e-16 3.6927371260168534e-15 -1</Rotation>
+<Translation>0.039646000000000445 0.0012809999999999697 -0.012884667986661411</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-2" uid="horn-2" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 1.1853603350782226e-15 0 0 3.561169556258504e-15 -1 -1.1853603350782224e-15 -1 -3.561169556258504e-15</Rotation>
+<Translation>0.11474000000000008 0.024671667986661462 -0.023171667986661079</Translation>
+</Transform>
+</Instance>
+<Instance name="femur-1" uid="femur-1" entityUid="femur*:*Default">
+<Transform>
+<Rotation>-1 4.9831270717697863e-16 0 0 -3.7174432877062427e-15 1 4.9831270717697863e-16 1 3.7174432877062427e-15</Rotation>
+<Translation>0.072240000000000013 0.024671667986661462 -0.023171667986661346</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-3" uid="servo-3" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 1.1853603350782212e-15 0 1 3.4405762476971354e-15 -1.1853603350782212e-15 3.4405762476971354e-15 -1</Rotation>
+<Translation>0.12464600000000046 0.0012809999999999697 -0.012884667986661436</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-1" uid="horn-1" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 -3.8431659304135971e-16 0 0 3.7312554304606489e-15 -1 3.8431659304135971e-16 -1 -3.7312554304606489e-15</Rotation>
+<Translation>0.029740000000000016 0.024671667986661469 -0.023171667986661322</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="left_leg-2" uid="left_leg-2" entityUid="left_leg">
+<Transform>
+<Rotation>1 1.1102230246251565e-16 -6.9413938476789423e-16 6.9413938476789413e-16 -2.306466085244364e-16 0.99999999999999989 1.1102230246251565e-16 -1 -2.3064660852443645e-16</Rotation>
+<Translation>-0.06783882181415013 -0.002 0</Translation>
+</Transform>
+<Instance name="servo-3" uid="servo-3" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 3.3203279158713488e-16 -8.2549736086996407e-16 3.3203279158713271e-16 1 3.158225356917917e-15 8.2549736086996437e-16 3.1582253569179166e-15 -0.99999999999999978</Rotation>
+<Translation>-0.10483399999999959 0.0012809999999999968 -0.012884667986661349</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-1" uid="coxa-1" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>0 1.0000000000000002 1.0781747709441858e-16 -1 1.1102230246251554e-16 0 0 -1.078174770944191e-16 0.99999999999999989</Rotation>
+<Translation>-0.014870000000000022 -0.0099999999999999985 -0.048421667986661421</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-2" uid="servo-2" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 -2.1883977955693569e-16 0 1 3.416909612395458e-15 3.2986208201945105e-16 3.416909612395458e-15 -0.99999999999999978</Rotation>
+<Translation>-0.019833999999999574 0.0012809999999999614 -0.012884667986661394</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-1" uid="servo-1" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 0.99999999999999978 0</Rotation>
+<Translation>0.0099060000000004284 -0.010287000000000008 -0.021390667986661421</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-2" uid="coxa-2" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>-2.503732891601781e-16 -1 0 3.6944653685517479e-15 0 1 -0.99999999999999978 2.503732891601783e-16 3.416909612395458e-15</Rotation>
+<Translation>-0.014870000000000022 -0.025750000000000037 -0.013171667986661497</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-2" uid="horn-2" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 -3.2986208201945169e-16 -3.7671438194143403e-16 3.7671438194143319e-16 2.5863980878175038e-15 -1 3.2986208201945268e-16 -1 -2.5863980878175038e-15</Rotation>
+<Translation>-0.029740000000000003 0.024671667986661434 -0.023171667986661332</Translation>
+</Transform>
+</Instance>
+<Instance name="femur-1" uid="femur-1" entityUid="femur*:*Default">
+<Transform>
+<Rotation>-1 6.3021706100286117e-16 3.8027982677662788e-16 3.8027982677662625e-16 -2.6141536634331418e-15 1 6.3021706100286215e-16 1 2.6141536634331414e-15</Rotation>
+<Translation>-0.072240000000000026 0.024671667986661462 -0.023171667986661284</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-1" uid="horn-1" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 -8.2549736086996427e-16 -3.3203279158713355e-16 3.3203279158713e-16 3.1582253569179182e-15 -1 8.2549736086996664e-16 -0.99999999999999989 -3.158225356917919e-15</Rotation>
+<Translation>-0.11474000000000001 0.024671667986661466 -0.02317166798666126</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-1" uid="bearing-1" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>-1.1102230246251558e-16 -1 -2.099749184642102e-16 -1 -2.2204460492503121e-16 0 0 2.099749184642107e-16 -0.99999999999999978</Rotation>
+<Translation>0 0 -0.048421667986661421</Translation>
+</Transform>
+</Instance>
+<Instance name="tibia-1" uid="tibia-1" entityUid="tibia*:*Default">
+<Transform>
+<Rotation>-8.254973608699621e-16 -1 3.3203279158713739e-16 3.1582253569179166e-15 3.3203279158713478e-16 1 -1 8.2549736086996319e-16 3.1582253569179162e-15</Rotation>
+<Translation>-0.11474000000000004 0.0042500000000000419 -0.023171667986661336</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="right_leg-1" uid="right_leg-1" entityUid="right_leg">
+<Transform>
+<Rotation>0.47058823529412069 -0.88235294117646901 0 0 0 0.99999999999999978 -0.88235294117646901 -0.47058823529412069 0</Rotation>
+<Translation>0.040000000000000008 -0.0020000000000000009 -0.075000000000000053</Translation>
+</Transform>
+<Instance name="horn-2" uid="horn-2" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 1.1853603350782238e-15 0 0 3.5611695562585017e-15 -1 -1.1853603350782226e-15 -0.99999999999999956 -3.561169556258437e-15</Rotation>
+<Translation>0.11474000000000008 0.024671667986662087 -0.023171667986661124</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-2" uid="coxa-2" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>2.7438094090229423e-16 1 0 -3.415181369860567e-15 0 1 1 -2.7438094090229423e-16 3.415181369860567e-15</Rotation>
+<Translation>0.014869999999999994 -0.025750000000000044 -0.013171667986661511</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-1" uid="horn-1" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 -3.8431659304135966e-16 0 0 3.7312554304606473e-15 -1 3.8431659304135966e-16 -0.99999999999999956 -3.7312554304606457e-15</Rotation>
+<Translation>0.029739999999999989 0.024671667986661455 -0.023171667986661315</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-3" uid="servo-3" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 1.1853603350782258e-15 0 1 3.4405762476971323e-15 -1.1853603350782214e-15 3.4405762476971358e-15 -0.99999999999999956</Rotation>
+<Translation>0.12464600000000038 0.0012809999999999558 -0.012884667986661429</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-2" uid="servo-2" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 -3.8431659304135986e-16 0 1 3.6927371260168542e-15 3.8431659304135966e-16 3.6927371260168534e-15 -0.99999999999999978</Rotation>
+<Translation>0.039646000000000445 0.0012809999999999835 -0.012884667986661408</Translation>
+</Transform>
+</Instance>
+<Instance name="femur-1" uid="femur-1" entityUid="femur*:*Default">
+<Transform>
+<Rotation>-1 4.9831270717697892e-16 0 0 -3.7174432877062403e-15 1 4.9831270717697873e-16 0.99999999999999956 3.7174432877062348e-15</Rotation>
+<Translation>0.072239999999999985 0.024671667986661448 -0.023171667986661339</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-1" uid="bearing-1" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>0.00019041730547542099 0.99999998187062467 -2.3492285925315669e-16 0.99999998187062467 -0.00019041730547542096 0 0 -2.3492011785090486e-16 -0.99999999999999989</Rotation>
+<Translation>0 0 -0.0484216679866614</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-1" uid="coxa-1" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.01486999999999998 -0.010000000000000002 -0.0484216679866614</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-1" uid="servo-1" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 0.99999999999999956 0</Rotation>
+<Translation>0.0099060000000004145 -0.010287000000000011 -0.021390667986661421</Translation>
+</Transform>
+</Instance>
+<Instance name="tibia-1" uid="tibia-1" entityUid="tibia*:*Default">
+<Transform>
+<Rotation>1.1853603350782244e-15 1 1.6653345369377348e-16 3.3772675388395554e-15 1.6653345369377348e-16 -1 -0.99999999999999978 1.1853603350782252e-15 -3.3772675388395546e-15</Rotation>
+<Translation>0.11473999999999997 0.0072500000000000134 -0.023171667986661419</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="right_leg-2" uid="right_leg-2" entityUid="right_leg">
+<Transform>
+<Rotation>1.0000000000000002 1.1102230246251565e-15 -6.2089969829883393e-16 6.2089969829883294e-16 4.2096494037630602e-16 1 1.1102230246251565e-15 -1.0000000000000002 4.2096494037630538e-16</Rotation>
+<Translation>0.067838821814150102 -0.0020000000000000039 0</Translation>
+</Transform>
+<Instance name="tibia-1" uid="tibia-1" entityUid="tibia*:*Default">
+<Transform>
+<Rotation>1.1853603350782252e-15 1.0000000000000004 2.0592333806807845e-16 3.3772675388395562e-15 2.0592333806807648e-16 -1 -1 1.1853603350782234e-15 -3.3772675388395519e-15</Rotation>
+<Translation>0.11474000000000002 0.0072500000000000238 -0.023171667986661433</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-1" uid="coxa-1" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>0 -1.0000000000000002 0 1.0000000000000002 0 0 0 0 1</Rotation>
+<Translation>0.014870000000000008 -0.01 -0.048421667986661414</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-1" uid="bearing-1" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>0.00019041730547539345 0.99999998187062467 -2.3492285925315748e-16 0.99999998187062467 -0.00019041730547539345 0 0 -2.3492011785090565e-16 -0.99999999999999989</Rotation>
+<Translation>0 0 -0.048421667986661421</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-2" uid="coxa-2" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>2.7438094090229349e-16 1.0000000000000002 0 -3.415181369860567e-15 0 1.0000000000000002 1 -2.7438094090229399e-16 3.4151813698605654e-15</Rotation>
+<Translation>0.014869999999999994 -0.02575000000000004 -0.013171667986661518</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-1" uid="horn-1" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 -3.8431659304136045e-16 0 0 3.7312554304606489e-15 -1 3.8431659304136036e-16 -1 -3.7312554304606489e-15</Rotation>
+<Translation>0.029740000000000016 0.024671667986661473 -0.023171667986661326</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-1" uid="servo-1" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 1 0</Rotation>
+<Translation>0.0099060000000004284 -0.010287000000000011 -0.021390667986661428</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-2" uid="horn-2" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 1.1853603350782218e-15 0 0 3.5611695562585025e-15 -1 -1.1853603350782216e-15 -1 -3.5611695562585025e-15</Rotation>
+<Translation>0.11474000000000005 0.024671667986661476 -0.023171667986661079</Translation>
+</Transform>
+</Instance>
+<Instance name="femur-1" uid="femur-1" entityUid="femur*:*Default">
+<Transform>
+<Rotation>-1 4.9831270717697922e-16 0 0 -3.7174432877062419e-15 1 4.9831270717697922e-16 1 3.7174432877062419e-15</Rotation>
+<Translation>0.072240000000000013 0.024671667986661462 -0.023171667986661346</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-2" uid="servo-2" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 0 -3.8431659304136006e-16 0 1.0000000000000002 3.6927371260168542e-15 3.8431659304136045e-16 3.6927371260168534e-15 -1</Rotation>
+<Translation>0.039646000000000445 0.0012809999999999757 -0.012884667986661411</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-3" uid="servo-3" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 1.1853603350782204e-15 0 1 3.4405762476971358e-15 -1.1853603350782204e-15 3.4405762476971358e-15 -1</Rotation>
+<Translation>0.12464600000000049 0.0012809999999999725 -0.012884667986661436</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="left_leg-4" uid="left_leg-4" entityUid="left_leg">
+<Transform>
+<Rotation>0.4705882352941182 -0.88235294117647045 0 0 0 1 -0.88235294117647045 -0.47058823529411836 0</Rotation>
+<Translation>-0.040000000000000008 -0.0019999999999999996 0.074999999999999997</Translation>
+</Transform>
+<Instance name="coxa-1" uid="coxa-1" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>-1.6653345369377343e-16 1 1.0210309387943648e-16 -1 -1.6653345369377353e-16 0 0 -1.0210309387943648e-16 1</Rotation>
+<Translation>-0.014870000000000008 -0.010000000000000002 -0.048421667986661435</Translation>
+</Transform>
+</Instance>
+<Instance name="femur-1" uid="femur-1" entityUid="femur*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 6.3593144421784559e-16 5.5511151231257827e-16 2.2204460492503131e-16 -2.6092556206774435e-15 1 6.245026777878798e-16 1 2.6190517061888346e-15</Rotation>
+<Translation>-0.072240000000000054 0.024671667986662621 -0.023171667986661041</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-1" uid="horn-1" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1 -8.2549736086996555e-16 -3.3306690738754696e-16 1.6653345369377348e-16 3.1533273141622199e-15 -1.0000000000000002 8.1978297765498389e-16 -1 -3.1582253569179178e-15</Rotation>
+<Translation>-0.11474000000000012 0.024671667986663329 -0.023171667986660937</Translation>
+</Transform>
+</Instance>
+<Instance name="tibia-1" uid="tibia-1" entityUid="tibia*:*Default">
+<Transform>
+<Rotation>-8.3121174408494426e-16 -1.0000000000000002 4.4408920985006262e-16 3.1533273141622183e-15 1.1102230246251565e-16 1 -1 8.1978297765497728e-16 3.1631233996736133e-15</Rotation>
+<Translation>-0.11474000000000006 0.0042500000000010169 -0.023171667986661097</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-1" uid="servo-1" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 0 -1.6653345369377343e-16 -1.6653345369377343e-16 0 1 0 1 0</Rotation>
+<Translation>0.0099060000000004422 -0.010287000000000001 -0.021390667986661428</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-2" uid="servo-2" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 -2.2204460492503037e-16 -3.2414769880446924e-16 -2.2204460492503126e-16 1 3.4218076551511563e-15 3.241476988044685e-16 3.4218076551511563e-15 -1</Rotation>
+<Translation>-0.019833999999999533 0.0012809999999999835 -0.012884667986661368</Translation>
+</Transform>
+</Instance>
+<Instance name="servo-3" uid="servo-3" entityUid="servo*:*Default">
+<Transform>
+<Rotation>-1 2.7755575615628914e-16 -8.2549736086996309e-16 1.6653345369377348e-16 1.0000000000000002 3.158225356917917e-15 8.1978297765498172e-16 3.1631233996736157e-15 -1</Rotation>
+<Translation>-0.10483399999999968 0.0012810000000009758 -0.01288466798666116</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-1" uid="bearing-1" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>-2.7755575615628909e-16 -1 -2.0426053524922795e-16 -1 2.7755575615628914e-16 0 0 2.0426053524922795e-16 -1</Rotation>
+<Translation>0 0 -0.048421667986661435</Translation>
+</Transform>
+</Instance>
+<Instance name="coxa-2" uid="coxa-2" entityUid="coxa*:*Défaut">
+<Transform>
+<Rotation>-2.5608767237516021e-16 -1 0 3.68956732579605e-15 -2.2204460492503131e-16 1.0000000000000002 -1 2.5037328916017756e-16 3.6944653685517487e-15</Rotation>
+<Translation>-0.014869999999999967 -0.025750000000000037 -0.013171667986661473</Translation>
+</Transform>
+</Instance>
+<Instance name="horn-2" uid="horn-2" entityUid="horn*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 -3.3557646523443129e-16 -5.5511151231257827e-16 2.2204460492503131e-16 2.5815000450618055e-15 -1 3.2414769880447018e-16 -1 -2.5912961305732045e-15</Rotation>
+<Translation>-0.029740000000000086 0.024671667986662586 -0.023171667986661086</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.040000000000000008 0.0030000000000000001 0.074999999999999997</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.06783882181415013 0.0030000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-4</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000009</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.039999999999999987 0.0030000000000000001 -0.075000000000000011</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-6</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.040000000000000015 0.0030000000000000001 -0.075000000000000011</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-5</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.067838821814150116 0.0030000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-3</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.039999999999999994 0.0030000000000000001 0.074999999999999997</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0.002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.019999999999999993 0 -0.087808688457449505</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.019999999999999993 0 -0.087808688457449505</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.019999999999999993 0 -0.087808688457449505</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.019999999999999993 0 -0.087808688457449505</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.019999999999999993 0 -0.087808688457449505</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.019999999999999993 0 -0.087808688457449505</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.043294117647058844 0.0030000000000000001 0.081176470588235322</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>-0.0069999999999999923 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.074838821814150108 0.0030000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-4</Uid>
+</InstancePath>
+<Position>-0.0070000000000000062 0 0.0020000000000000009</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.043294117647058844 0.0030000000000000001 -0.081176470588235322</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-6</Uid>
+</InstancePath>
+<Position>-0.0069999999999999923 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.043294117647058844 0.0030000000000000001 -0.081176470588235322</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-5</Uid>
+</InstancePath>
+<Position>0.0070000000000000062 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.074838821814150108 0.0030000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-3</Uid>
+</InstancePath>
+<Position>0.0069999999999999923 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>-0.043294117647058844 0.0030000000000000001 0.081176470588235322</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0.0070000000000000062 0 0.002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000001 0.100617376914899</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-2</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0.100617376914899</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000001 -0.100617376914899</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>body-2</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 -0.100617376914899</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-2</Uid>
+</InstancePath>
+<Position>0.019999999999999993 0.0030000000000000027 -0.087808688457449505</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>body-1</Uid>
+</InstancePath>
+<Position>0.019999999999999993 0 -0.087808688457449505</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-3</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>left_leg-2</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.019811999999999996 0.021390667986661421 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-5</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>left_leg-3</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.019811999999999982 0.021390667986661428 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-6</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>right_leg-1</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.019811999999999996 0.021390667986661421 0</Position>
+<Axis>0 0.99999999999999978 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-4</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>right_leg-2</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.019811999999999996 0.021390667986661432 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>right_leg-3</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.01981200000000001 0.021390667986661428 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0.002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>left_leg-4</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.01981200000000001 0.021390667986661428 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0.002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>left_leg-4</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.0099060000000004422 0.011724097551572343 0.010287000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-3</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>left_leg-2</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.0099060000000004284 0.011724097551572339 0.010287000000000006</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-5</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>left_leg-3</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.0099060000000004145 0.011724097551572343 0.010287000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-6</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>right_leg-1</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.0099060000000004145 0.011724097551572336 0.010287000000000011</Position>
+<Axis>0 0.99999999999999978 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-4</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000009</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>right_leg-2</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.0099060000000004284 0.011724097551572344 0.01028700000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999992</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>right_leg-3</Uid>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.0099060000000004284 0.011724097551572344 0.010287000000000018</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="left_leg" uid="left_leg" version="217">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<AssemblyFile name="left_leg.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>-0.0099999999999999985 0.014870000000000006 0.0020000000000000087</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0.020499999999999997 0.02700000000000001 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>-0.0099999999999999985 0.014870000000000006 0.0020000000000000087</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.0099060000000004301 0.011724097551572343 0.010287000000000006</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0 0 0.033000000000000015</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.019812000000000003 0.0059690000000000021 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0.020500000000000001 0.0019999999999999983 0</Position>
+<Axis>-1.1102230246251558e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.019812 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>-0.0097500000000000104 0.0020000000000000018 0.025500000000000019</Position>
+<Axis>-1.1102230246251558e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>0.0097500000000000191 0.002 0.025500000000000005</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>-0.0097500000000000104 0.0020000000000000018 0.032500000000000015</Position>
+<Axis>-1.1102230246251558e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>0.0027500000000000163 0.002 0.02550000000000003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0.020500000000000001 0 0</Position>
+<Axis>1.1102230246251558e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>0.020500000000000001 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>0.0099999999999999985 0.014869999999999996 0.0020000000000000018</Position>
+<Axis>2.7755575615628914e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo-2</Uid>
+</InstancePath>
+<Position>0.0099060000000004249 0.011724097551572343 0.010287000000000004</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>0 0 0.033000000000000002</Position>
+<Axis>2.7755575615628914e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-2</Uid>
+</InstancePath>
+<Position>0.019811999999999993 0.0059690000000000038 0</Position>
+<Axis>0 -1 -1.3391411733648322e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>0.020500000000000001 0.002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 1.1102230246251528e-16</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>0.042499999999999996 0 0.0029999999999999957</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999983</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>0.049500000000000002 0 0.0029999999999999957</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0.0070000000000000062 0 0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>-0.04250000000000001 0 0</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>-0.04250000000000001 0 0.0029999999999999957</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999983</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>-0.049500000000000002 0 0.0029999999999999992</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>-0.0070000000000000027 0 0.0019999999999999983</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>-0.04250000000000001 0 0</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo-2</Uid>
+</InstancePath>
+<Position>0.0099060000000004249 0.011724097551572343 0.010287000000000004</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999983</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-2</Uid>
+</InstancePath>
+<Position>0.019811999999999993 0.021390667986661432 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999983</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999983</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo-3</Uid>
+</InstancePath>
+<Position>0.0099060000000004284 0.011724097551572344 0.010287000000000008</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999983</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-3</Uid>
+</InstancePath>
+<Position>0.01981200000000001 0.021390667986661428 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-3</Uid>
+</InstancePath>
+<Position>0.019811999999999996 0.0059690000000000047 0</Position>
+<Axis>0 -1 -1.3391411733648322e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tibia-1</Uid>
+</InstancePath>
+<Position>0.051512532395113178 -0.15757728988313294 0.0029999999999999975</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-3</Uid>
+</InstancePath>
+<Position>0.019811999999999996 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tibia-1</Uid>
+</InstancePath>
+<Position>-0.030499999999999992 0.011999999999999997 0.0029999999999999983</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>servo-3</Uid>
+</InstancePath>
+<Position>0.0099060000000004284 0.015316200000000009 0.010287000000000004</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>tibia-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="right_leg" uid="right_leg" version="223">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<AssemblyFile name="right_leg.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0.014870000000000005 0.0020000000000000018</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0.020499999999999997 0.027000000000000014 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0.014870000000000005 0.0020000000000000018</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.0099060000000004301 0.011724097551572343 0.010287000000000006</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0 0 0.032999999999999988</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0.019812000000000003 0.0059690000000000021 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0.020500000000000001 0.002 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0.0097500000000000121 0.0020000000000000018 0.025499999999999995</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>-0.00975 0.0020000000000000018 0.025499999999999998</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0.0097500000000000121 0.002 0.032499999999999987</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>-0.0027500000000000007 0.0019999999999999983 0.025500000000000026</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-1</Uid>
+</InstancePath>
+<Position>0.020500000000000001 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>0.020500000000000001 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>-0.0099999999999999933 0.014870000000000001 0.0019999999999999983</Position>
+<Axis>2.7755575615628677e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo-2</Uid>
+</InstancePath>
+<Position>0.0099060000000004249 0.011724097551572343 0.010286999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>0 0 0.033000000000000002</Position>
+<Axis>2.7755575615628677e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-2</Uid>
+</InstancePath>
+<Position>0.019812000000000003 0.0059690000000000021 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coxa-2</Uid>
+</InstancePath>
+<Position>0.020500000000000001 0.0020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-2</Uid>
+</InstancePath>
+<Position>0.019812000000000003 0 0</Position>
+<Axis>1 0 -1.6653345369377107e-16</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>-0.042499999999999996 0 0.0029999999999999992</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>-0.049500000000000002 0 0.0029999999999999992</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>-0.0069999999999999923 0 0.0019999999999999983</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>-0.042499999999999996 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>0.04250000000000001 0 0.0029999999999999992</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999983</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>0.049500000000000002 0 0.0029999999999999992</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0 0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>femur-1</Uid>
+</InstancePath>
+<Position>-0.042499999999999996 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo-2</Uid>
+</InstancePath>
+<Position>0.0099060000000004249 0.011724097551572343 0.010286999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999983</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-2</Uid>
+</InstancePath>
+<Position>0.019812000000000003 0.021390667986661432 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-1</Uid>
+</InstancePath>
+<Position>0 0 0.0019999999999999983</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo-3</Uid>
+</InstancePath>
+<Position>0.0099060000000004284 0.011724097551572343 0.010287000000000004</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>horn-2</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-3</Uid>
+</InstancePath>
+<Position>0.019811999999999996 0.021390667986661428 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-3</Uid>
+</InstancePath>
+<Position>0.019811999999999996 0.0059690000000000047 0</Position>
+<Axis>0 -1 -1.339141173364781e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tibia-1</Uid>
+</InstancePath>
+<Position>0.051512532395113178 -0.15757728988313294 0</Position>
+<Axis>0 0 -0.99999999999999956</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tibia-1</Uid>
+</InstancePath>
+<Position>-0.030499999999999992 0.011999999999999983 0.0029999999999999966</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>servo-3</Uid>
+</InstancePath>
+<Position>0.0099060000000004284 0.015316200000000009 0.010287000000000004</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>tibia-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999956</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="bearing" uid="bearing*:*Default" version="159">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0012733876407657759</Mass>
+<CenterOfMass>0 0 0.0017343270791989897</CenterOfMass>
+<Inertia>7.1717027572183321e-09 7.1717027572183321e-09 1.0809860449109638e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="body" uid="body*:*Default" version="142">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13031707326094441</Mass>
+<CenterOfMass>0 0.0015 0</CenterOfMass>
+<Inertia>0.0002350112846343664 0.00038471095975626092 0.00014989515073178598 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="coxa" uid="coxa*:*Défaut" version="352">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="coxa.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.028000000000000001</Mass>
+<CenterOfMass>0 0.0072943951229905912 0.013880359167327041</CenterOfMass>
+<Inertia>6.2548837497603885e-06 1.1371473873339277e-05 8.9969022248605582e-06 9.40722416334168e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="coxa_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.9137254901960784" b="0.92941176470588238" a="1"/>
+<Specular r="0.44705882352941173" g="0.4568627450980392" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="femur" uid="femur*:*Default" version="120">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="femur.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015302781912612879</Mass>
+<CenterOfMass>0 -0.0025668496554293518 0.0015000000000000002</CenterOfMass>
+<Inertia>6.0193118068987417e-07 1.6419523247915241e-05 1.6998500255736198e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="femur_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="horn" uid="horn*:*Default" version="122">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="horn.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018258018568560375</Mass>
+<CenterOfMass>0 0 0.0012900554591714524</CenterOfMass>
+<Inertia>4.4131232550362921e-08 4.4131232550362934e-08 8.4881090157277686e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="horn_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.92156862745098034" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.92156862745098034" b="0.92941176470588238" a="1"/>
+<Specular r="0.62862744027493045" g="0.64509802822973206" b="0.650588224214666" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="servo" uid="servo*:*Default" version="677">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="servo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.056009873409757202</Mass>
+<CenterOfMass>0.0099061324381490342 -0.002575836967129225 0.00036760852079644374</CenterOfMass>
+<Inertia>1.3784094709667237e-05 9.4967729058209542e-06 7.8210130206466355e-06 -1.5498790625296241e-07 5.2756330933389978e-11 -1.3364121924768417e-10</Inertia>
+</MassProperties>
+<GeometryFile name="servo_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tibia" uid="tibia*:*Default" version="142">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="tibia.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.027442816807815677</Mass>
+<CenterOfMass>0.030424671156408199 0.024201420478612821 0.001500042373360208</CenterOfMass>
+<Inertia>3.449048508065923e-06 5.0165270325221001e-05 5.3573155805423112e-05 1.7322169563528357e-12 -2.0171208337936341e-11 -6.8552172103215866e-06</Inertia>
+</MassProperties>
+<GeometryFile name="tibia_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.080000000000000016" g="0.080000000000000016" b="0.080000000000000016" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

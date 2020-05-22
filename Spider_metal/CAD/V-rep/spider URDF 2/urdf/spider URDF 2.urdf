@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="spider URDF 2">
+  <link
+    name="main_body">
+    <inertial>
+      <origin
+        xyz="7.9841E-19 2.4817E-18 -0.024667"
+        rpy="0 0 0" />
+      <mass
+        value="0.27159" />
+      <inertia
+        ixx="0.00047029"
+        ixy="8.621E-20"
+        ixz="9.2464E-22"
+        iyy="0.00030006"
+        iyz="2.8702E-20"
+        izz="0.00076993" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/main_body.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/main_body.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="L1_coxa">
+    <inertial>
+      <origin
+        xyz="0.0247761020916158 0.0016341318811333 0.00351420598211367"
+        rpy="0 0 0" />
+      <mass
+        value="0.145467159991245" />
+      <inertia
+        ixx="4.17771437174161E-05"
+        ixy="-5.35841770623164E-07"
+        ixz="5.35574503748093E-07"
+        iyy="2.67197997965506E-05"
+        iyz="-4.91508372771303E-13"
+        izz="2.67198003019226E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L1_coxa.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L1_coxa.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L1_joint1"
+    type="fixed">
+    <origin
+      xyz="-0.044415 0.061418 -0.023391"
+      rpy="1.5708 0 2.0608" />
+    <parent
+      link="main_body" />
+    <child
+      link="L1_coxa" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L1_femur">
+    <inertial>
+      <origin
+        xyz="0.0425 0.00207234047327528 -0.000962489733140025"
+        rpy="0 0 0" />
+      <mass
+        value="0.0189543856263249" />
+      <inertia
+        ixx="6.90193645790598E-07"
+        ixy="9.75487893396359E-21"
+        ixz="7.94093388050907E-23"
+        iyy="1.6507785713016E-05"
+        iyz="2.0503687617123E-21"
+        izz="1.71682624360507E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L1_femur.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.92156862745098 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L1_femur.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L1_joint2"
+    type="fixed">
+    <origin
+      xyz="0.0396460000000004 -0.00178099999999991 0.0349586679866614"
+      rpy="-3.14159265358979 0 0" />
+    <parent
+      link="L1_coxa" />
+    <child
+      link="L1_femur" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L1_tibia">
+    <inertial>
+      <origin
+        xyz="0.0178645516396564 -0.000259178981868974 0.0136344624812394"
+        rpy="0 0 0" />
+      <mass
+        value="0.083452689557944" />
+      <inertia
+        ixx="6.39493635604438E-05"
+        ixy="-1.3188961409821E-10"
+        ixz="-6.85516461255453E-06"
+        iyy="6.30699268556512E-05"
+        iyz="-1.55008010479795E-07"
+        izz="1.1270060453422E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L1_tibia.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L1_tibia.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L1_joint3"
+    type="fixed">
+    <origin
+      xyz="0.0750939999999996 -0.0102869999999999 0.0233906679866615"
+      rpy="-1.5707963267949 0 0" />
+    <parent
+      link="L1_femur" />
+    <child
+      link="L1_tibia" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L2_coxa">
+    <inertial>
+      <origin
+        xyz="0.0247761019865103 0.00163413188564857 0.00351420600696526"
+        rpy="0 0 0" />
+      <mass
+        value="0.145467159253711" />
+      <inertia
+        ixx="4.1777143942296E-05"
+        ixy="-5.35841762208973E-07"
+        ixz="5.35574479770473E-07"
+        iyy="2.67198002179655E-05"
+        iyz="1.0483085257125E-20"
+        izz="2.67198002179655E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L2_coxa.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L2_coxa.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L2_joint1"
+    type="fixed">
+    <origin
+      xyz="-0.057933 -0.010287 -0.023391"
+      rpy="1.5708 0 -3.1416" />
+    <parent
+      link="main_body" />
+    <child
+      link="L2_coxa" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L2_femur">
+    <inertial>
+      <origin
+        xyz="0.0425 0.00207234047327529 -0.000962489733140046"
+        rpy="0 0 0" />
+      <mass
+        value="0.0189543856263249" />
+      <inertia
+        ixx="6.90193645790593E-07"
+        ixy="1.05689234935213E-21"
+        ixz="8.04103118988984E-21"
+        iyy="1.6507785713016E-05"
+        iyz="1.63458960305294E-21"
+        izz="1.71682624360507E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L2_femur.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.92156862745098 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L2_femur.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L2_joint2"
+    type="fixed">
+    <origin
+      xyz="0.0396460000000004 -0.00178099999999991 0.0349586679866614"
+      rpy="3.14159265358979 0 0" />
+    <parent
+      link="L2_coxa" />
+    <child
+      link="L2_femur" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L2_tibia">
+    <inertial>
+      <origin
+        xyz="0.0178645519028315 -0.000259179077848723 0.0136344632777333"
+        rpy="0 0 0" />
+      <mass
+        value="0.0834526902175736" />
+      <inertia
+        ixx="6.39493650348896E-05"
+        ixy="-1.31909002290743E-10"
+        ixz="-6.85516445399056E-06"
+        iyy="6.30699287112449E-05"
+        iyz="-1.55008077461342E-07"
+        izz="1.12700615287121E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L2_tibia.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L2_tibia.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L2_joint3"
+    type="fixed">
+    <origin
+      xyz="0.0750939999999996 -0.0102869999999999 0.0233906679866614"
+      rpy="-1.5707963267949 0 0" />
+    <parent
+      link="L2_femur" />
+    <child
+      link="L2_tibia" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L3_coxa">
+    <inertial>
+      <origin
+        xyz="0.0247761020098556 0.00163413195267163 0.00351420592765425"
+        rpy="0 0 0" />
+      <mass
+        value="0.145467159991245" />
+      <inertia
+        ixx="4.17771437174694E-05"
+        ixy="-5.35841791312058E-07"
+        ixz="5.35574459198207E-07"
+        iyy="2.67197998012243E-05"
+        iyz="-4.54267233853851E-13"
+        izz="2.67198002995217E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L3_coxa.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L3_coxa.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L3_joint1"
+    type="fixed">
+    <origin
+      xyz="-0.026262 -0.0711 -0.023391"
+      rpy="1.5708 0 -2.0608" />
+    <parent
+      link="main_body" />
+    <child
+      link="L3_coxa" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L3_femur">
+    <inertial>
+      <origin
+        xyz="0.0424999999999998 0.00207234047327515 -0.000962489733139935"
+        rpy="0 0 0" />
+      <mass
+        value="0.0189543856263249" />
+      <inertia
+        ixx="6.90193645790596E-07"
+        ixy="1.27110074245556E-20"
+        ixz="6.03510974918689E-21"
+        iyy="1.65077857130159E-05"
+        iyz="1.75296890584284E-21"
+        izz="1.71682624360507E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L3_femur.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.92156862745098 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L3_femur.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L3_joint2"
+    type="fixed">
+    <origin
+      xyz="0.0396460000000005 -0.00178099999999964 0.0349586679866626"
+      rpy="3.14159265358979 0 0" />
+    <parent
+      link="L3_coxa" />
+    <child
+      link="L3_femur" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="L3_tibia">
+    <inertial>
+      <origin
+        xyz="0.0178645520428122 -0.000259178845722352 0.0136344638552385"
+        rpy="0 0 0" />
+      <mass
+        value="0.0834526923953858" />
+      <inertia
+        ixx="6.39493660790735E-05"
+        ixy="-1.31925906151489E-10"
+        ixz="-6.8551643119347E-06"
+        iyy="6.30699307053158E-05"
+        iyz="-1.55008121913509E-07"
+        izz="1.1270061788477E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L3_tibia.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/L3_tibia.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L3_joint3"
+    type="fixed">
+    <origin
+      xyz="0.0750939999999996 -0.0102869999999999 0.0233906679866616"
+      rpy="-1.5707963267949 0 0" />
+    <parent
+      link="L3_femur" />
+    <child
+      link="L3_tibia" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="R1_coxa">
+    <inertial>
+      <origin
+        xyz="-0.00496389814092921 0.00163413195267159 0.00351420592765427"
+        rpy="0 0 0" />
+      <mass
+        value="0.145467159991245" />
+      <inertia
+        ixx="4.17771437174693E-05"
+        ixy="5.35468938005544E-07"
+        ixz="-5.35736270119371E-07"
+        iyy="2.67197998012243E-05"
+        iyz="-4.54267229900889E-13"
+        izz="2.67198002995216E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R1_coxa.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R1_coxa.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R1_joint1"
+    type="fixed">
+    <origin
+      xyz="0.053738 0.0789 -0.023391"
+      rpy="1.5708 0 -2.0608" />
+    <parent
+      link="main_body" />
+    <child
+      link="R1_coxa" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="R1_femur">
+    <inertial>
+      <origin
+        xyz="-0.0425 0.00207234047327522 -0.000962489733140004"
+        rpy="0 0 0" />
+      <mass
+        value="0.0189543856263249" />
+      <inertia
+        ixx="6.90193645790599E-07"
+        ixy="5.83228344855E-21"
+        ixz="3.09696421339854E-21"
+        iyy="1.65077857130159E-05"
+        iyz="1.97242199602815E-21"
+        izz="1.71682624360507E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R1_femur.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.92156862745098 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R1_femur.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R1_joint2"
+    type="fixed">
+    <origin
+      xyz="-0.0198339999999996 -0.0017809999999999 0.0349586679866615"
+      rpy="3.14159265358979 0 0" />
+    <parent
+      link="R1_coxa" />
+    <child
+      link="R1_femur" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="R1_tibia">
+    <inertial>
+      <origin
+        xyz="0.00194762565089338 -0.000259206689439198 0.0136344638552385"
+        rpy="0 0 0" />
+      <mass
+        value="0.0834526923953859" />
+      <inertia
+        ixx="6.39493660790734E-05"
+        ixy="-1.31925906144713E-10"
+        ixz="6.85526981343424E-06"
+        iyy="6.30699307053149E-05"
+        iyz="-1.54967811581959E-07"
+        izz="1.12700617884764E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R1_tibia.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R1_tibia.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R1_joint3"
+    type="fixed">
+    <origin
+      xyz="-0.0949060000000004 -0.0102869999999999 0.0233906679866615"
+      rpy="-1.5707963267949 0 0" />
+    <parent
+      link="R1_femur" />
+    <child
+      link="R1_tibia" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="R2_coxa">
+    <inertial>
+      <origin
+        xyz="-0.0049639 0.0016341 0.0035142"
+        rpy="0 0 0" />
+      <mass
+        value="0.14547" />
+      <inertia
+        ixx="4.1777E-05"
+        ixy="5.3547E-07"
+        ixz="-5.3574E-07"
+        iyy="2.672E-05"
+        iyz="8.6821E-21"
+        izz="2.672E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R2_coxa.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R2_coxa.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R2_joint1"
+    type="fixed">
+    <origin
+      xyz="0.077745 -0.010287 -0.023391"
+      rpy="1.5708 0 -3.1416" />
+    <parent
+      link="main_body" />
+    <child
+      link="R2_coxa" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="R2_femur">
+    <inertial>
+      <origin
+        xyz="-0.0425 0.0020723 -0.00096249"
+        rpy="0 0 0" />
+      <mass
+        value="0.018954" />
+      <inertia
+        ixx="6.9019E-07"
+        ixy="-1.399E-21"
+        ixz="1.7931E-20"
+        iyy="1.6508E-05"
+        iyz="2.691E-21"
+        izz="1.7168E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R2_femur.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.92157 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R2_femur.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R2_joint2"
+    type="fixed">
+    <origin
+      xyz="-0.0198339999999996 -0.00178099999999989 0.0349586679866615"
+      rpy="-3.14159265358979 0 0" />
+    <parent
+      link="R2_coxa" />
+    <child
+      link="R2_femur" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="R2_tibia">
+    <inertial>
+      <origin
+        xyz="0.0019476 -0.00025921 0.013634"
+        rpy="0 0 0" />
+      <mass
+        value="0.083453" />
+      <inertia
+        ixx="6.3949E-05"
+        ixy="-1.3191E-10"
+        ixz="6.8553E-06"
+        iyy="6.307E-05"
+        iyz="-1.5497E-07"
+        izz="1.127E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R2_tibia.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R2_tibia.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R2_joint3"
+    type="fixed">
+    <origin
+      xyz="-0.0949060000000004 -0.0102869999999999 0.0233906679866616"
+      rpy="-1.5707963267949 0 0" />
+    <parent
+      link="R2_femur" />
+    <child
+      link="R2_tibia" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="R3_coxa">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R3_coxa.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R3_coxa.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R3_joint1"
+    type="fixed">
+    <origin
+      xyz="0.0355848823529414 -0.0885815294117651 -0.0233906679866614"
+      rpy="1.5707963267949 0 2.06075365304862" />
+    <parent
+      link="main_body" />
+    <child
+      link="R3_coxa" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="R3_femur">
+    <inertial>
+      <origin
+        xyz="-0.0425000000000001 0.00207234047327527 -0.000962489733140059"
+        rpy="0 0 0" />
+      <mass
+        value="0.018954385626325" />
+      <inertia
+        ixx="6.90193645790599E-07"
+        ixy="-3.69336264179559E-21"
+        ixz="-1.96670462440608E-20"
+        iyy="1.6507785713016E-05"
+        iyz="3.1737957298141E-21"
+        izz="1.71682624360508E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R3_femur.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.92156862745098 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R3_femur.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R3_joint2"
+    type="fixed">
+    <origin
+      xyz="-0.0198339999999995 -0.0017809999999999 0.0349586679866615"
+      rpy="-3.14159265358979 0 0" />
+    <parent
+      link="R3_coxa" />
+    <child
+      link="R3_femur" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="R3_tibia">
+    <inertial>
+      <origin
+        xyz="0.00194762621390129 -0.000259206874815343 0.0136344624812394"
+        rpy="0 0 0" />
+      <mass
+        value="0.0834526895579443" />
+      <inertia
+        ixx="6.39493635604439E-05"
+        ixy="-1.31889614091434E-10"
+        ixz="6.85527012743982E-06"
+        iyy="6.30699268556516E-05"
+        iyz="-1.54967636024376E-07"
+        izz="1.12700604534222E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R3_tibia.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spider URDF 2/meshes/R3_tibia.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R3_joint3"
+    type="fixed">
+    <origin
+      xyz="-0.0949060000000004 -0.0102869999999999 0.0233906679866614"
+      rpy="-1.5707963267949 0 0" />
+    <parent
+      link="R3_femur" />
+    <child
+      link="R3_tibia" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
